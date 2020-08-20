@@ -1,0 +1,52 @@
+.Mn {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.FrmBg-1 {
+	background:url(../images/triangle.svg) 120% -50% no-repeat;
+	background-color: #3E48FF;
+	background-size: 50%;
+	overflow: hidden;
+}
+
+.Srvbg {
+	background:none;
+}
+
+
+.SrvBlk {
+	width: 45%;
+	margin: 20px 10% 20px 0;
+}
+
+.SrvBlk:nth-child(3n) {
+	margin-right: 10%;
+}
+
+.SrvBlk:nth-child(2n) {
+	margin-right: 0;
+}
+
+.AnulLf {
+	width: 40%;
+	margin-right: 5%;
+}
+
+.AnulRt {
+	width: 50%;
+	margin-top: 0;
+}
+
+.CmpuLf {
+	width: 100%;
+}
+
+.CmpuRt {
+	width: 60%;
+	position: relative;
+	top:auto;
+	right:auto;
+	z-index: 1000000;
+	margin: 0 auto;
+}

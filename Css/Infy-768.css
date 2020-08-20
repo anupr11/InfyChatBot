@@ -1,0 +1,190 @@
+.Mn {
+	width: 100%;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.MnuIcn {
+	width: 40px;
+	height: 40px;
+	margin-top: 15px;
+}
+
+.MnuDis {
+	display: block;
+}
+
+.MnuRf {
+	width:250px;
+	margin-top: 15px;
+	display: block;
+	position: absolute;
+	top:0;
+	right:0;
+	z-index: 10000000;
+	background-color: #D74CDA;
+	/*transform: scale(0);*/
+	transition: 0.3s linear;
+	transform-origin: 100% -50%;
+	opacity: 0;
+}
+
+.MnuIcn:hover .MnuRf {
+	top:40px;
+	transform: scale(1);
+	transition: 0.3s linear;
+	opacity: 1;
+}
+
+.MnuOtr {
+	text-align: left;
+	float: none;
+	position: absolute;
+	right:15px;
+	top:5px;
+	z-index: 10000000; 
+}
+
+.MnMnu a {
+	border-radius: 0;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-align: left;
+	border-bottom:solid 1px #fff;
+	margin: 0 0;
+}
+
+.MnMnu a:hover {
+	background-color: #555EFF;
+	display: block;
+}
+
+
+.Lgo {
+	float: none;
+}
+
+.FrmBg-1 {
+	background:url(../images/triangle.svg) 150% -50% no-repeat;
+	background-color: #3E48FF;
+	background-size: 80%;
+	overflow: hidden;
+}
+
+.FrmLf {
+	width:100%;
+	margin-right: 0;
+}
+
+.FrmRt {
+	width:100%;
+	margin-left: 0;
+	margin-top: 50px;
+}
+
+.Srvbg {
+	background:none;
+}
+
+.SrvBlk {
+	width: 45%;
+	margin: 20px 10% 20px 0;
+}
+
+.SrvBlk:nth-child(3n) {
+	margin-right: 10%;
+}
+
+.SrvBlk:nth-child(2n) {
+	margin-right: 0;
+}
+
+.FetrCont {
+	width: 70%;
+	position: relative;
+	top:100px;
+	left:40px;
+}
+
+.StatBlk {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.AnulLf {
+	width: 100%;
+	margin-right: 0;
+}
+
+.AnulRt {
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.SubsOtr {
+	width: 70%;
+}
+
+.CmpuLf {
+	width: 100%;
+}
+
+.CmpuRt {
+	width: 80%;
+	position: relative;
+	top:auto;
+	right:auto;
+	z-index: 1000000;
+	margin: 0 auto;
+}
+
+.ClntStats {
+	width:70%;
+	margin:10px auto;
+	float: none;
+}
+
+.AnsContLf {
+	width: 100%;
+	margin-right: 0;
+}
+
+.AnsContRt {
+	width: 100%;
+}
+
+.ProjBlk {
+	width: 100%;
+	margin-right: 0;
+	float: none;
+}
+
+.ProjLap {
+	width: 60%;
+}
+
+.ClntsLf {
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+	float: none;
+}
+
+.ClntsRt {
+	width: 60%;
+	margin: 20px auto;
+	float: none;
+}
+
+.BlgBgOtr {
+	width: 100%;
+	float: none;
+	margin: 30px auto;
+}
+
+.BlgBg a {
+	width: 60%; 
+}
